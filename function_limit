@@ -1,0 +1,27 @@
+f = D₁ → W₁
+g = D₂ → W₂
+D₃ = D₁ ∩ W₂
+f · g = g⁻¹(D₃) → f(D₃)
+
+xₙ = N → W
+
+u = ¹/ₓ
+g(u) = f(¹/ₓ)
+lim x→∞ f = lim u→0 g
+
+∀ε >0 Ǝδ>0 x ∈ U(x₀, δ)
+  |f(x) - A| < ε ↔ lim x->x₀ f = A
+  |f(x)| > ε lim ↔ x->x₀ f = ∞
+
+lim x₁→x₀ x₂→x₀ f(x₁) - f(x₂) = 0 ↔ lim x→x₀ exists
+
+Convergence: lim n→∞ x = A
+
+Divergence: not Convergence
+
+Continuous: lim x→x₀ f = f(x₀)
+
+Discontinuous: not Continuous
+
+Consistent continuity: ∀ε >0 Ǝg 
+  x₁ x₂ ∈ U(x₀, g(ε)) |f(x₁) - f(x₂)| < ε
